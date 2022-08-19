@@ -1,0 +1,23 @@
+{
+  "name": "promises-web-spider-v3",
+  "version": "1.0.0",
+  "description": "A web spider example to demonstrate parallel asynchronous execution with Promises",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "mkdirp": "^0.5.1",
+    "superagent": "^5.2.2",
+    "slug": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "keywords": [],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT"
+}
