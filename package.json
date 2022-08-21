@@ -5,13 +5,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "mkdirp": "^0.5.1",
-    "superagent": "^5.2.2",
-    "slug": "^1.1.0"
+    "slug": "^1.1.0",
+    "superagent": "5.2.2"
   },
   "engines": {
     "node": ">=14"
